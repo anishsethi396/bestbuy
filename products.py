@@ -85,7 +85,6 @@ class NonStockedProduct(Product):
         super().__init__(name, price, quantity=0)
 
     def show(self):
-        promotion_info = ""
         if self.promotion:
             promotion_info = f"Promotion: {self.promotion.name}"
         else:

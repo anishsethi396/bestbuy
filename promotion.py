@@ -54,5 +54,3 @@ class ThirdOneFree(Promotion):
         products_to_pay = quantity - free_products
         total_price = products_to_pay * product.price
         return total_price
-
-
